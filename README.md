@@ -60,9 +60,11 @@ Special thanks to
 > torrinfail, 
 > dunst-project,
 > yshui
-\nfor github repos
+
+for github repos
 > SEPHIROTH508
-\nfor Wallpaper
+
+for Wallpaper
 # Future plans
 - [ ] Add wallpaper changer(mini interface probably with xmenu). 
 - [ ]  Music change notifications. 
