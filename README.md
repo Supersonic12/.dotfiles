@@ -1,5 +1,12 @@
 # .dotfiles
 My humble dotfiles for dwm-flexipatch, dwmblocks, picom, bashrc, dunst
+
+- Home Menu Preview Image
+!(/images/preview1.png)
+- Floating Mode Preview Image
+!(/images/preview2.png)
+- Spiral Mode Preview Image
+!(/images/preview3.png)
 This was designed for username khazar. You will need to change files that contains absolute path. 
 Just run grep -r khazar inside .dotfiles/ directory.
 # installation and setup
