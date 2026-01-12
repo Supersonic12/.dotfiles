@@ -7,9 +7,10 @@ My humble dotfiles for dwm-flexipatch, dwmblocks, picom, bashrc, dunst
 ![](/images/preview2.png)
 - Spiral Mode Preview Image
 ![](/images/preview3.png)
-This was designed for username khazar. You will need to change files that contains absolute path. 
-Just run grep -r khazar inside .dotfiles/ directory.
-# installation and setup
+> [!Caution]
+> This was designed for username khazar. You will need to change files that contains absolute path. 
+> Just run grep -r khazar inside .dotfiles/ directory.
+# Installation and setup
 
 **Clone .dotfiles to your machine**
 ```
