@@ -1,0 +1,86 @@
+[global]
+### Display ###
+monitor = 0
+follow = mouse
+origin = top-right
+offset = (20,40)
+width = 320
+height = (40,60)
+notification_limit = 5
+
+### Progress / stack ###
+indicate_hidden = yes
+stack_duplicates = yes
+hide_duplicate_count = no
+
+### Appearance ###
+font = JetBrains Mono 10
+padding = 10
+horizontal_padding = 10
+frame_width = 2
+separator_height = 2
+corner_radius = 8
+scale = 0
+
+### Transparency (patched dunst) ###
+transparency = 15
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#89b4fa"
+separator_color = frame
+
+### Text ###
+markup = full
+format = "<b>%s</b>\n%b"
+alignment = left
+ellipsize = middle
+word_wrap = yes
+ignore_newline = no
+
+### Icons ###
+icon_position = left
+max_icon_size = 48
+icon_path = /usr/share/icons/Papirus/48x48/status:/usr/share/icons/Papirus/48x48/apps
+
+### Mouse ###
+mouse_left_click = close_current
+mouse_middle_click = do_action
+mouse_right_click = close_all
+
+### History ###
+sticky_history = yes
+history_length = 20
+
+### Misc ###
+show_indicators = yes
+always_run_script = true
+title = Dunst
+class = Dunst
+
+
+[urgency_low]
+timeout = 4
+background = "#1e1e2e"
+foreground = "#6c7086"
+frame_color = "#45475a"
+
+
+
+[urgency_normal]
+timeout = 8
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#89b4fa"
+
+
+
+[urgency_critical]
+timeout = 0
+background = "#1e1e2e"
+foreground = "#f38ba8"
+frame_color = "#f38ba8"
+
+
+
+
+
