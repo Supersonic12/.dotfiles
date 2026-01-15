@@ -806,6 +806,7 @@ static const Layout layouts[] = {
 	{ "(@)" , spiral },
 	{ "(@W)" , dwindle },
 	{ "(D)" , deck },
+	{ "(G)" , grid },
 };
 #endif // FLEXTILE_DELUXE_LAYOUT
 
@@ -1249,6 +1250,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_s,	       setlayout,	       {.v = &layouts[3]} },
 	{ MODKEY|ShiftMask,		XK_s,	       setlayout,	       {.v = &layouts[4]} },
 	{ MODKEY,			XK_d,	       setlayout,	       {.v = &layouts[5]} },
+	{ MODKEY, 			XK_g,	       setlayout,	       {.v = &layouts[6]} },
 	#if COLUMNS_LAYOUT
 	{ MODKEY,                       XK_c,          setlayout,              {.v = &layouts[3]} },
 	#endif // COLUMNS_LAYOUT
