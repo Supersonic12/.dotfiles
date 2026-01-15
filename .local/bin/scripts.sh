@@ -38,7 +38,7 @@ case "$1" in
 		;;
 	rofilauncher)
 		rofi -show drun \
-			-theme ~/.config/rofi/launchers/type-1/style-5.rasi
+			-theme ~/.config/rofi/arthur.rasi
 		;;
 	*)
 		exit 1

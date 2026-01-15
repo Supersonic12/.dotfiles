@@ -1,2 +1,0 @@
-#!/bin/sh
-printf "Tile\t[]=\nMonocle\t[M]\nDeck\t[D]\nGrid\tHHH\nFloating\t><>\nSpiral\t(@)\n" | xmenu

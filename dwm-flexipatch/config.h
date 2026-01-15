@@ -1778,6 +1778,13 @@ static const Signal signals[] = {
 static Signal signals[] = {
 	/* signum       function        argument  */
 	{ 1,            setlayout,      {.v = 0} },
+	{ 2,		setlayout,	{.v = &layouts[0]} },
+	{ 3,		setlayout,	{.v = &layouts[1]} },
+	{ 4,		setlayout,	{.v = &layouts[2]} },
+	{ 5,		setlayout,	{.v = &layouts[3]} },
+	{ 6,		setlayout,	{.v = &layouts[4]} },
+	{ 7,		setlayout,	{.v = &layouts[5]} },
+	{ 8,		setlayout,	{.v = &layouts[6]} },
 };
 #endif // DWMC_PATCH
 

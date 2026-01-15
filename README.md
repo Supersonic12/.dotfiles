@@ -42,8 +42,11 @@ git clone https://github.com/torrinfail/dwmblocks
 cp .dotfiles/dwmblocks/blocks.h dwmblocks/
 ```
 ## Scripts setup
+<!-- scripts.sh is for rofi menu and dwmblocks -->
+<!-- layoutmenu is for just changing dwm layout with menu -->
 ```
 cp .dotfiles/.local/bin/scripts.sh ~/.local/bin
+cp .dotfiles/.local/bin/layoutmenu ~/.local/bin
 ```
 ## Dunst setup
 ```
@@ -56,7 +59,12 @@ sudo pacman -S picom
 mkdir -p ~/.config/picom/
 cp .dotfiles/picom/picom.conf ~/.config/picom/
 ```
-
+## Rofi setup 
+```
+git clone https://github.com/davatorium/rofi
+mkdir -p ~/.config/rofi
+cp .dotfiles/rofi/arthur.rasi ~/.config/rofi/
+```
 
 # Thanks
 Special thanks to 
@@ -64,6 +72,7 @@ Special thanks to
 > torrinfail, 
 > dunst-project,
 > yshui
+> davatorium
 
 for github repos
 > SEPHIROTH508
