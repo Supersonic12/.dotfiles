@@ -916,14 +916,18 @@ static const char *dmenucmd[] = {
 	#endif // BAR_DMENUMATCHTOP_PATCH
 	NULL
 };
-static const char *roficmd[] = { "/home/khazar/.local/bin/scripts.sh","rofilauncher", NULL };
+
+// defining scripts' places
+// for customizing to your needs just change USER macro
+#define  USER "/home/khazar"
+static const char *roficmd[] = { USER "/.local/bin/scripts.sh","rofilauncher", NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
-static const char *brightness_up[] = {"/home/khazar/.local/bin/scripts.sh","brightnessup", NULL};
-static const char *brightness_down[] = {"/home/khazar/.local/bin/scripts.sh","brightnessdown", NULL};
-static const char *volume_up[] = {"/home/khazar/.local/bin/scripts.sh","volumeup",NULL};
-static const char *volume_down[] = {"/home/khazar/.local/bin/scripts.sh","volumedown", NULL};
+static const char *brightness_up[] = { USER "/.local/bin/scripts.sh","brightnessup", NULL};
+static const char *brightness_down[] = { USER "/.local/bin/scripts.sh","brightnessdown", NULL};
+static const char *volume_up[] = { USER "/.local/bin/scripts.sh","volumeup",NULL};
+static const char *volume_down[] = { USER "/.local/bin/scripts.sh","volumedown", NULL};
 static const char *printscreen[] = {"/usr/bin/sh", "-c", "maim -s ~/Pictures/screenshot_$(date +%s).png", NULL};
-static const char *layoutchanger[] = {"/usr/bin/sh", "-c", "/home/khazar/.local/bin/layoutmenu",NULL};
+static const char *layoutchanger[] = {"/usr/bin/sh", "-c", USER "/.local/bin/layoutmenu",NULL};
 #if BAR_STATUSCMD_PATCH
 #if BAR_DWMBLOCKS_PATCH
 /* This defines the name of the executable that handles the bar (used for signalling purposes) */

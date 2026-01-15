@@ -8,8 +8,11 @@ My humble dotfiles for dwm-flexipatch, dwmblocks, picom, bashrc, dunst
 - Spiral Mode Preview Image
 ![](/images/preview3.png)
 > [!Caution]
-> This was designed for username khazar. You will need to change files that contains absolute path. 
-> Just run grep -r khazar inside .dotfiles/ directory.
+> This was designed for username khazar.
+> Just change USER macro in:
+>  1. dwm-flexipatch/config.h
+>  2. dwmblocks/blocks.h
+> to your own home location
 # Installation and setup
 
 **Clone .dotfiles to your machine**
