@@ -1,0 +1,23 @@
+# Global settings
+title-text: ""
+desktop-image: "grub.png"
+
+# Menu
++ boot_menu {
+    left = 6%
+    top = 28%
+    width = 38%
+    height = 40%
+
+
+    item_font = "MusicalTone64.pf2"
+    item_color = "#C4B7E6"          # lavender
+    selected_item_color = "#5A4FCF" # iris
+
+    item_pixmap_style = "item_1.png"
+    selected_item_pixmap_style = "highlight_1.png"
+
+    item_height = 64
+    item_padding = 8
+}
+
