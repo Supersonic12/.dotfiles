@@ -14,6 +14,19 @@ case "$1" in
 			fi
 		fi
 		;;
+	batterycheck)
+	USER=jesus	
+	LOW_END=20
+	HIGH_END=80
+	CURRENT_CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
+	CHARGE_STATE=$(cat /sys/class/power_supply/BAT0/status)
+	
+	if (( CURRENT_CHARGE <=  LOW_END )); then
+	        dunstify -t 10000 -i "/home/$USER/.dotfiles/icons/low-battery.png" "Low Battery" "Plug in!"
+	elif (( $CURRENT_CHARGE >= $HIGH_END )) && [[ $CHARGE_STATE == "Charging" ]]; then
+        	dunstify -t 10000 -i "/home/$USER/.dotfiles/icons/full-battery.png" "All&Mighty Battery" "Plug off!"
+	fi
+		;;
 	volumestate)
 		amixer get Master | awk -F'[][]' 'END{ print "🔊" $2 }'
 		;;

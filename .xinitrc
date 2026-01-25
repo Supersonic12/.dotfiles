@@ -1,6 +1,7 @@
 #!/bin/sh
-picom -b --config ~/.config/picom/picom.conf
-xwallpaper --zoom "/home/khazar/Downloads/silentvoice.png"
+$USER=jesus
+picom -b --config "/home/$USER.config/picom/picom.conf"
+xwallpaper --zoom "/home/$USER/.dotfiles/wallpaper/silentvoice.png"
 dwmblocks &
 dunst &
 eval 'ssh-agent'

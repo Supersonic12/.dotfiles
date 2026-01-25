@@ -12,6 +12,8 @@ My humble dotfiles for dwm-flexipatch, dwmblocks, picom, bashrc, dunst
 > Just change USER macro in:
 >  1. dwm-flexipatch/config.h
 >  2. dwmblocks/blocks.h
+>  3. .xinitrc
+>  4. .local/bin/scripts.sh
 > to your own home location
 # Installation and setup
 
@@ -66,6 +68,21 @@ mkdir -p ~/.config/rofi
 cp .dotfiles/rofi/arthur.rasi ~/.config/rofi/
 ```
 
+## Alacritty setup
+```
+sudo pacman -S alacritty
+mkdir -p ~/.config/alacritty/ 
+cp .dotfiles/alacritty/* ~/.config/alacritty/ 
+```
+
+## Cronie setup
+```
+sudo pacman -S cron
+crontab -e 
+cp ".dotfiles/cronfile" "/var/spool/cron/$USER"
+sudo systemctl enable cronie 
+sudo systemctl start cronie
+```
 # Thanks
 Special thanks to 
 > bakkeby, 
