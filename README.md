@@ -2,11 +2,11 @@
 My humble dotfiles for dwm-flexipatch, dwmblocks, picom, bashrc, dunst
 
 - Home Menu Preview Image
-![](/images/preview1.png)
+![](/gitpreview/preview1.png)
 - Floating Mode Preview Image
-![](/images/preview2.png)
+![](/gitpreview/preview2.png)
 - Spiral Mode Preview Image
-![](/images/preview3.png)
+![](/gitpreview/preview3.png)
 > [!Caution]
 > This was designed for username khazar.
 > Just change USER macro in:
