@@ -96,5 +96,6 @@ for github repos
 
 for Wallpaper
 # Future plans
-- [ ] Add wallpaper changer(mini interface probably with xmenu). 
+- [ ] Add wallpaper changer(mini interface probably with xmenu or some xlib gui). 
 - [ ]  Music change notifications. 
+- [ ]  All in one installer script
